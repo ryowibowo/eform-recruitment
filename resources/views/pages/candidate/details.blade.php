@@ -57,10 +57,77 @@
 		    </header>
 		    <div class="resume-body p-5">
 			    <section class="resume-section summary-section mb-5">
-				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Career Summary</h2>
-				    <div class="resume-section-content">
-					    <p class="mb-0">Summarise your career here. <a class="text-reset text-link" href="https://themes.3rdwavemedia.com/resources/sketch-template/pillar-sketch-sketch-resume-template-for-developers/" target="_blank">You can make a PDF version of your resume using our free Sketch template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-				    </div>
+				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Personal Information</h2>
+					<div class="row">
+						<div class="col-lg-3">
+							<section class="resume-section education-section mb-5">
+								<div class="resume-section-content">
+									<ul class="list-unstyled">
+										<li class="mb-2">
+											<div class="resume-degree font-weight-bold">Gender</div>
+											<div class="resume-degree-org">{{$candidate->gender}}</div>
+										</li>
+										<li>
+											<div class="resume-degree font-weight-bold">Place Of Birth</div>
+											<div class="resume-degree-org">{{$candidate->place_of_birth}}</div>
+										</li>
+										<li>
+											<div class="resume-degree font-weight-bold">Date Of Birth</div>
+											<div class="resume-degree-org">{{$candidate->date_of_birth}}</div>
+										</li>
+									</ul>
+								</div>
+							</section><!--//education-section-->
+						</div>
+						<div class="col-lg-3">
+							<section class="resume-section education-section mb-5">
+								<div class="resume-section-content">
+									<ul class="list-unstyled">
+										<li class="mb-2">
+											<div class="resume-degree font-weight-bold">MSc in Computer Science</div>
+											<div class="resume-degree-org">University College London</div>
+										</li>
+										<li>
+											<div class="resume-degree font-weight-bold">BSc Maths and Physics</div>
+											<div class="resume-degree-org">Imperial College London</div>
+										</li>
+									</ul>
+								</div>
+							</section><!--//education-section-->
+						</div>
+						<div class="col-lg-3">
+							<section class="resume-section education-section mb-5">
+								<div class="resume-section-content">
+									<ul class="list-unstyled">
+										<li class="mb-2">
+											<div class="resume-degree font-weight-bold">MSc in Computer Science</div>
+											<div class="resume-degree-org">University College London</div>
+										</li>
+										<li>
+											<div class="resume-degree font-weight-bold">BSc Maths and Physics</div>
+											<div class="resume-degree-org">Imperial College London</div>
+										</li>
+									</ul>
+								</div>
+							</section><!--//education-section-->
+						</div>
+						<div class="col-lg-3">
+							<section class="resume-section education-section mb-5">
+								<div class="resume-section-content">
+									<ul class="list-unstyled">
+										<li class="mb-2">
+											<div class="resume-degree font-weight-bold">MSc in Computer Science</div>
+											<div class="resume-degree-org">University College London</div>
+										</li>
+										<li>
+											<div class="resume-degree font-weight-bold">BSc Maths and Physics</div>
+											<div class="resume-degree-org">Imperial College London</div>
+										</li>
+									</ul>
+								</div>
+							</section><!--//education-section-->
+						</div>
+					</div>
 			    </section><!--//summary-section-->
 			    <div class="row">
 				    <div class="col-lg-9">

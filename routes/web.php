@@ -22,6 +22,9 @@ Route::post('/form-kandidat' , 'FormKandidatController@store')->name('form_kandi
 
 
 Auth::routes();
+Route::get('/auth/redirect', 'Auth\LoginController@redirectToProvider');
+Route::get('/auth/callback', 'Auth\LoginController@handleProviderCallback');
+
 Route::get('/' , 'HomeController@index')->name('index');
 Route::get('/home' , 'HomeController@index')->name('home');
 
